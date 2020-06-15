@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset=utf-8 />
+  <title>#stopp</title>
+  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+  <script src="https://api.mapbox.com/mapbox-gl-js/v1.10.1/mapbox-gl.js"></script>
+  <link href="https://api.mapbox.com/mapbox-gl-js/v1.10.1/mapbox-gl.css" rel="stylesheet" />
+  <link href='styles/site.css' rel='stylesheet' />
+</head>
+
+<body>
+
+
+
+<div class="left">
+  <div id="startButton" class="button">
+    Start
+  </div>
+  <h2>Preview</h2>
+  <video id="preview" width="160" height="120" autoplay muted></video>
+</div>
+<div class="right">
+  <div id="stopButton" class="button">
+    Stop
+  </div>
+  <h2>Recording</h2>
+  <video id="recording" width="160" height="120" controls></video>
+  <a id="downloadButton" class="button">
+    Download
+  </a>
+</div>
+<div class="bottom">
+  <pre id="log"></pre>
+</div>
+</body>
+<script type="text/javascript" src='scripts/site.js'></script>
+
+</html>
