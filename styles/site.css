@@ -3,45 +3,69 @@ body {
 }
 
 video {
-  margin-top: 2px;
+  left: 0;
+  position: relative;
   border: 1px solid black;
   width: 100%;
   height: auto;
 }
 
-.button {
-  cursor: pointer;
+#startButton {
   display: block;
-  width: 160px;
-  border: 1px solid black;
-  font-size: 16px;
+  position: absolute;
+  margin: 0px auto;
+  width: 25%;
+  height: 5%;
+  border: none;
+  font-size: 100%;
   text-align: center;
-  padding-top: 2px;
-  padding-bottom: 4px;
-  color: white;
-  background-color: darkgreen;
-  text-decoration: none;
+  color: #fff;
+  background: #6569ee;
+  left: 0;
+  bottom: 0;
 }
 
-h2 {
-  margin-bottom: 4px;
+#stopButton {
+  display: block;
+  position: absolute;
+  margin: 0px auto;
+  width: 25%;
+  height: 5%;
+  border: none;
+  font-size: 100%;
+  text-align: center;
+  color: #fff;
+  background: #6569ee;
+  left: 25%;
+  bottom: 0;
 }
 
-.left {
-  margin-right: 10px;
-  float: left;
-  width: 100%;
-  padding: 0px;
+#downloadButton {
+  display: block;
+  position: absolute;
+  margin: 0px auto;
+  width: 25%;
+  height: 5%;
+  border: none;
+  font-size: 100%;
+  text-align: center;
+  color: #fff;
+  background: #ee8a65;
+  bottom: 0;
+  right: 25%;
 }
 
-.right {
-  margin-left: 10px;
-  float: left;
-  width: 100%;
-  padding: 0px;
-}
-
-.bottom {
-  clear: both;
-  padding-top: 10px;
+#mapButton {
+  display: block;
+  position: absolute;
+  margin: 0px auto;
+  width: 25%;
+  height: 5%;
+  border: none;
+  font-size: 100%;
+  text-align: center;
+  color: #fff;
+  background: #6569ee;
+  right: 0;
+  bottom: 0;
 }

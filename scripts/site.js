@@ -5,6 +5,10 @@ let stopButton = document.getElementById("stopButton");
 let downloadButton = document.getElementById("downloadButton");
 let logElement = document.getElementById("log");
 
+document.getElementById('mapButton').addEventListener('click', function() {
+        window.location.href = "https://jdmiranda.github.io/BlueAlert/";
+      });
+
 let recordingTimeMS = 5000;
 function log(msg) {
   logElement.innerHTML += msg + "\n";
